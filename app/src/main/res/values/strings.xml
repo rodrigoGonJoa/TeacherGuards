@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Teacher_Guards</string>
+
+    <string name="day_error">Error</string>
+    <string name="day_1">Monday</string>
+    <string name="day_2">Tuesday</string>
+    <string name="day_3">Wednesday</string>
+    <string name="day_4">Thursday</string>
+    <string name="day_5">Friday</string>
+
+    <string name="hour_error">Error</string>
+    <string name="hour_1">First hour</string>
+    <string name="hour_2">Second hour</string>
+    <string name="hour_3">Third hour</string>
+    <string name="hour_4">Fourth hour</string>
+    <string name="hour_5">Fifth hour</string>
+    <string name="hour_6">Last hour</string>
+
+    <string name="subject_error">Error</string>
+    <string name="subject_1">Language</string>
+    <string name="subject_2">Math</string>
+    <string name="subject_3">History</string>
+    <string name="subject_4">Physics</string>
+    <string name="subject_5">Philosophy</string>
+
+    <string name="course_error">Error</string>
+    <string name="course_1">1ESOA</string>
+    <string name="course_2">1ESOB</string>
+    <string name="course_3">2ESOA</string>
+    <string name="course_4">2ESOB</string>
+    <string name="course_5">3ESOA</string>
+    <string name="course_6">3ESOB</string>
+    <string name="course_7">4ESOA</string>
+    <string name="course_8">4ESOB</string>
+    <string name="course_9">1Bachelor</string>
+    <string name="course_10">2Bachelor</string>
+
+    <string name="sign_in_btn_log_in">Log In</string>
+    <string name="sign_in_snack_error" translatable="false">Error</string>
+
+    <string name="a_absence_list_breadcrumb">/absence_list</string>
+    <string name="a_absence_list_lbl_date">Date</string> program absence
+    <string name="a_absence_list_btn_set_date">Set Date</string>
+    <string name="a_absence_list_btn_schedule_absence">Program Absence</string>
+
+    <string name="a_add_teacher_breadcrumb">/teacher_list/add_teacher</string>
+    <string name="a_add_teacher_lbl_name">Name:</string>
+    <string name="a_add_teacher_lbl_surnames">Surnames:</string>
+    <string name="a_add_teacher_lbl_email">Email:</string>
+    <string name="a_add_teacher_hint_required">Required!</string>
+    <string name="a_add_teacher_lbl_schedule">Schedule</string>
+    <string name="a_add_teacher_lbl_personal_data">Personal data</string>
+    <string name="a_add_teacher_lbl_hour">Hour</string>
+    <string name="a_add_teacher_lbl_class">Class</string>
+    <string name="a_add_teacher_lbl_subject">Subject</string>
+    <string name="a_add_teacher_lbl_hour_1">1</string>
+    <string name="a_add_teacher_lbl_hour_2">2</string>
+    <string name="a_add_teacher_lbl_hour_3">3</string>
+    <string name="a_add_teacher_lbl_hour_4">4</string>
+    <string name="a_add_teacher_lbl_hour_5">5</string>
+    <string name="a_add_teacher_lbl_hour_6">6</string>
+    <string name="a_add_teacher_lbl_day_1">Monday</string>
+    <string name="a_add_teacher_lbl_day_2">Tuesday</string>
+    <string name="a_add_teacher_lbl_day_3">Wednesday</string>
+    <string name="a_add_teacher_lbl_day_4">Thursday</string>
+    <string name="a_add_teacher_lbl_day_5">Friday</string>
+    <string name="a_add_teacher_btn_save">Save</string>
+    <string name="a_add_teacher_snack_added">Added</string>
+    <string name="a_add_teacher_snack_error" translatable="false">Error</string>
+
+
+    <string name="a_display_absence_breadcrumb">/absence_list/display_absence</string>
+    <string name="a_display_absence_btn_save">Save</string>
+    <string name="a_display_absence_btn_cancel">Cancel</string>
+
+    <string name="a_display_absence_item_item_cb_assigned">Assigned</string>
+    <string name="a_display_absence_item_item_btn_set_teacher">Set Teacher</string>
+
+    <string name="a_display_teacher_breadcrumb">/teacher_list/display_teacher</string>
+    <string name="a_display_teacher_lbl_assistance_status">Assistance:</string>
+    <string name="a_display_teacher_lbl_guards_amount">Guards amount:</string>
+    <string name="a_display_teacher_lbl_absence_hours">Absence hours:</string>
+    <string name="a_display_teacher_lbl_email">Email:</string>
+    <string name="a_display_teacher_lbl_score">Score:</string>
+    <string name="a_display_teacher_btn_return">Return</string>
+
+    <string name="a_profile_breadcrumb">/profile</string>
+    <string name="a_profile_lbl_email">Email:</string>
+    <string name="a_profile_lbl_rol">Rol:</string>
+    <string name="a_profile_btn_log_out">Log Out</string>
+
+    <string name="a_set_teacher_breadcrumb">/absence_list/display_absence/set_teacher</string>
+    <string name="a_set_teacher_lbl_course">Course:</string>
+    <string name="a_set_teacher_lbl_subject">Subject:</string>
+    <string name="a_set_teacher_lbl_score">Score:</string>
+    <string name="a_set_teacher_lbl_choose_teacher">Choose teacher:</string>
+    <string name="a_set_teacher_btn_assign">Assign</string>
+
+    <string name="a_set_teacher_drop_item_txt_score">Score:</string>
+    <string name="a_set_teacher_drop_item_txt_guards">Guards:</string>
+
+    <string name="a_teacher_list_breadcrumb">/teacher_list</string>
+    <string name="a_teacher_list_btn_add_teacher">Add Teacher</string>
+    <string name="a_teacher_list_btn_search">Search</string>
+    <string name="a_teacher_list_hint_search">Carlos Ar…</string>
+
+    <string name="t_absence_list_breadcrumb">/absence_list</string>
+    <string name="t_absence_list_btn_add_absence">Add absence</string>
+
+    <string name="fragment_t_absence_list_dialog_btn_confirm">Confirm</string>
+    <string name="fragment_t_absence_list_dialog_btn_cancel">Cancel</string>
+    <string name="fragment_t_absence_list_dialog_lbl_from">Day from:</string>
+    <string name="fragment_t_absence_list_dialog_lbl_to">Day to:</string>
+    <string name="fragment_t_absence_list_dialog_lbl_title">Choose your date range:</string>
+    <string name="fragment_t_absence_list_dialog_to_error">Equal or higher</string>
+    <string name="fragment_t_absence_list_dialog_from_error">Equal or lower</string>
+
+    <string name="t_display_absence_breadcrumb">/absence_list/display_absence</string>
+    <string name="t_display_absence_btn_save">Save</string>
+    <string name="t_display_absence_btn_cancel">Cancel</string>
+    <string name="t_display_absence_snack_error">The absence has not been saved</string>
+    <string name="t_display_absence_snack_saved">The absence has been saved</string>
+
+    <string name="t_display_absence_item_item_cb_absnet">Absent</string>
+    <string name="t_display_absence_item_item_btn_set_teacher">Set Task</string>
+
+
+    <string name="t_display_guard_breadcrumb">/guards_list/display_guard</string>
+    <string name="t_display_guard_lbl_absent">Absent:</string>
+    <string name="t_display_guard_lbl_course">Course:</string>
+    <string name="t_display_guard_lbl_description">Description:</string>
+    <string name="t_display_guard_lbl_subject">Subject:</string>
+    <string name="t_display_guard_btn_download_doc">Download Document:</string>
+    <string name="t_display_guard_btn_save">Save</string>
+    <string name="t_display_guard_btn_back">Return</string>
+
+    <string name="t_guard_list_breadcrumb">/guards_list</string>
+    <string name="t_guard_list_lbl_covered_guards">Covered Guards</string>
+    <string name="t_guard_list_lbl_today_guards">Today\'s Guards</string>
+
+    <string name="t_profile_breadcrumb">/profile</string>
+    <string name="t_profile_lbl_assistance_status">Assistance:</string>
+    <string name="t_profile_lbl_guards_amount">Guards amount:</string>
+    <string name="t_profile_lbl_absence_hours">Absence hours:</string>
+    <string name="t_profile_lbl_email">Email:</string>
+    <string name="t_profile_lbl_rol">Rol:</string>
+    <string name="t_profile_btn_log_out">Log Out</string>
+
+    <string name="t_task_absence_breadcrumb">/absence_list/display_absence/task</string>
+    <string name="t_task_absence_lbl_guard">Guard:</string>
+    <string name="t_task_absence_lbl_course">Course:</string>
+    <string name="t_task_absence_lbl_description">Description:</string>
+    <string name="t_task_absence_lbl_subject">Subject:</string>
+    <string name="t_task_absence_btn_add_doc">Add Document:</string>
+    <string name="t_task_absence_btn_save">Save</string>
+    <string name="t_task_absence_btn_cancel">Cancel</string>
+    <string name="t_task_absence_hint_description">Optional</string>
+    <string name="t_task_absence_assigned_teacher">No assigned</string>
+    <string name="menu_item_profile">Profile</string>
+    <string name="menu_item_guard">Guard</string>
+    <string name="menu_item_absences">Absence</string>
+    <string name="menu_item_teacher">Teacher</string>
+
+
+</resources>

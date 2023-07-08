@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_admin"
+    app:startDestination="@id/a_AbsenceListFragment">
+
+    <fragment
+        android:id="@+id/a_AbsenceListFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_absence_list.A_AbsenceListFragment"
+        android:label="A_AbsenceListFragment"
+        tools:layout="@layout/fragment_a_absence_list">
+        <action
+            android:id="@+id/action_a_AbsenceListFragment_to_a_DisplayAbsenceFragment"
+            app:destination="@id/a_DisplayAbsenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/a_DisplayAbsenceFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_display_absence.A_DisplayAbsenceFragment"
+        android:label="A_DisplayAbsenceFragment"
+        tools:layout="@layout/fragment_a_display_absence">
+        <action
+            android:id="@+id/action_a_DisplayAbsenceFragment_to_a_SetTeacherFragment"
+            app:destination="@id/a_SetTeacherFragment" />
+        <argument
+            android:name="idAbsence"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_a_DisplayAbsenceFragment_to_a_AbsenceListFragment"
+            app:destination="@id/a_AbsenceListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/a_DisplayTeacherFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_display_teacher.A_DisplayTeacherFragment"
+        android:label="A_DisplayTeacherFragment"
+        tools:layout="@layout/fragment_a_display_teacher">
+        <argument
+            android:name="idTeacher"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_a_DisplayTeacherFragment_to_a_TeacherListFragment"
+            app:destination="@id/a_TeacherListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/a_ProfileFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_profile.A_ProfileFragment"
+        android:label="A_ProfileFragment"
+        tools:layout="@layout/fragment_a_profile"/>
+    <fragment
+        android:id="@+id/a_SetTeacherFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_display_absence.A_SetTeacherFragment"
+        android:label="A_SetTeacherFragment"
+        tools:layout="@layout/fragment_a_set_teacher">
+        <argument
+            android:name="dayAbsentData"
+            app:argType="com.rodrigo.teacher_guards.data.datamodels.AbsentScheduleModel" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="weekday"
+            app:argType="com.rodrigo.teacher_guards.data.datamodels.enums.WeekDayEnum" />
+        <argument
+            android:name="id_absence"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_a_SetTeacherFragment_to_a_DisplayAbsenceFragment"
+            app:destination="@id/a_DisplayAbsenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/a_TeacherListFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_teacher_list.A_TeacherListFragment"
+        android:label="A_TeacherListFragment"
+        tools:layout="@layout/fragment_a_teacher_list">
+        <action
+            android:id="@+id/action_a_TeacherListFragment_to_a_DisplayTeacherFragment"
+            app:destination="@id/a_DisplayTeacherFragment" />
+        <action
+            android:id="@+id/action_a_TeacherListFragment_to_a_AddTeacherScheduleFragment"
+            app:destination="@id/a_AddTeacherFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/a_AddTeacherFragment"
+        android:name="com.rodrigo.teacher_guards.ui.administrator.a_add_teacher.A_AddTeacherFragment"
+        android:label="A_AddTeacherScheduleFragment"
+        tools:layout="@layout/fragment_a_add_teacher">
+        <action
+            android:id="@+id/action_a_AddTeacherFragment_to_a_TeacherListFragment"
+            app:destination="@id/a_TeacherListFragment" />
+    </fragment>
+</navigation>

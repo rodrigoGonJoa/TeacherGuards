@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Teacher_Guards</string>
+
+    <string name="day_error">Error</string>
+    <string name="day_1">Lunes</string>
+    <string name="day_2">Martes</string>
+    <string name="day_3">Miércoles</string>
+    <string name="day_4">Jueves</string>
+    <string name="day_5">Viernes</string>
+
+    <string name="hour_error">Error</string>
+    <string name="hour_1">Primera hora</string>
+    <string name="hour_2">Segunda hora</string>
+    <string name="hour_3">Tercera hora</string>
+    <string name="hour_4">Cuarta hora</string>
+    <string name="hour_5">Quinta hora</string>
+    <string name="hour_6">Última hora</string>
+
+    <string name="subject_error">Error</string>
+    <string name="subject_1">Lengua</string>
+    <string name="subject_2">Matemáticas</string>
+    <string name="subject_3">Historia</string>
+    <string name="subject_4">Física</string>
+    <string name="subject_5">Filosofía</string>
+
+    <string name="course_error">Error</string>
+    <string name="course_1">1ESOA</string>
+    <string name="course_2">1ESOB</string>
+    <string name="course_3">2ESOA</string>
+    <string name="course_4">2ESOB</string>
+    <string name="course_5">3ESOA</string>
+    <string name="course_6">3ESOB</string>
+    <string name="course_7">4ESOA</string>
+    <string name="course_8">4ESOB</string>
+    <string name="course_9">1Bachillerato</string>
+    <string name="course_10">2Bachillerato</string>
+
+    <string name="sign_in_btn_log_in">Iniciar Sesión</string>
+
+    <string name="a_absence_list_breadcrumb">/absence_list</string>
+    <string name="a_absence_list_lbl_date">Fecha</string>
+    <string name="a_absence_list_btn_set_date">Establecer fecha</string>
+    <string name="a_absence_list_btn_schedule_absence">Programar ausencia</string>
+
+    <string name="a_add_teacher_breadcrumb">/teacher_list/add_teacher</string>
+    <string name="a_add_teacher_lbl_name">Nombre:</string>
+    <string name="a_add_teacher_lbl_surnames">Apellidos:</string>
+    <string name="a_add_teacher_lbl_email">Email:</string>
+    <string name="a_add_teacher_hint_required">Requerido!</string>
+    <string name="a_add_teacher_lbl_schedule">Horario</string>
+    <string name="a_add_teacher_lbl_personal_data">Información Personal</string>
+    <string name="a_add_teacher_lbl_hour">Hora</string>
+    <string name="a_add_teacher_lbl_class">Clase</string>
+    <string name="a_add_teacher_lbl_subject">Asignatura</string>
+    <string name="a_add_teacher_lbl_hour_1">1</string>
+    <string name="a_add_teacher_lbl_hour_2">2</string>
+    <string name="a_add_teacher_lbl_hour_3">3</string>
+    <string name="a_add_teacher_lbl_hour_4">4</string>
+    <string name="a_add_teacher_lbl_hour_5">5</string>
+    <string name="a_add_teacher_lbl_hour_6">6</string>
+    <string name="a_add_teacher_lbl_day_1">Lunes</string>
+    <string name="a_add_teacher_lbl_day_2">Martes</string>
+    <string name="a_add_teacher_lbl_day_3">Miércoles</string>
+    <string name="a_add_teacher_lbl_day_4">Jueves</string>
+    <string name="a_add_teacher_lbl_day_5">Viernes</string>
+    <string name="a_add_teacher_btn_save">Guardar</string>
+
+    <string name="a_add_teacher_snack_added">Añadido</string>
+    <string name="a_display_absence_breadcrumb">/absence_list/display_absence</string>
+    <string name="a_display_absence_btn_save">Guardar</string>
+    <string name="a_display_absence_btn_cancel">Cancelar</string>
+
+    <string name="a_display_teacher_breadcrumb">/teacher_list/display_teacher</string>
+    <string name="a_display_teacher_lbl_assistance_status">Asistencia:</string>
+    <string name="a_display_teacher_lbl_guards_amount">Cantidad de guardias:</string>
+    <string name="a_display_teacher_lbl_absence_hours">Horas ausente:</string>
+    <string name="a_display_teacher_lbl_email">Email:</string>
+    <string name="a_display_teacher_lbl_score">Puntuación:</string>
+
+    <string name="a_profile_breadcrumb">/profile</string>
+    <string name="a_profile_lbl_email">Email:</string>
+    <string name="a_profile_lbl_rol">Rol:</string>
+    <string name="a_profile_btn_log_out">Cerrar Sesión</string>
+
+    <string name="a_set_teacher_breadcrumb">/absence_list/display_absence/set_teacher</string>
+    <string name="a_set_teacher_lbl_course">Curso:</string>
+    <string name="a_set_teacher_lbl_subject">Asignatura:</string>
+    <string name="a_set_teacher_lbl_score">Puntuación:</string>
+    <string name="a_set_teacher_lbl_choose_teacher">Elegir profesor:</string>
+    <string name="a_set_teacher_btn_assign">Asignar</string>
+
+    <string name="a_teacher_list_breadcrumb">/teacher_list</string>
+    <string name="a_teacher_list_btn_add_teacher">Añadir Profesor</string>
+    <string name="a_teacher_list_btn_search">Buscar</string>
+    <string name="a_teacher_list_hint_search">Carlos Ar…</string>
+
+    <string name="t_absence_list_breadcrumb">/absence_list</string>
+    <string name="t_absence_list_btn_add_absence">Añadir ausencia</string>
+
+    <string name="fragment_t_absence_list_dialog_btn_confirm">Confirmar</string>
+    <string name="fragment_t_absence_list_dialog_btn_cancel">Cancelar</string>
+    <string name="fragment_t_absence_list_dialog_lbl_from">Desde:</string>
+    <string name="fragment_t_absence_list_dialog_lbl_to">Hasta:</string>
+    <string name="fragment_t_absence_list_dialog_lbl_title">Elige el rango de fecha:</string>
+    <string name="fragment_t_absence_list_dialog_to_error">Igual o mayor</string>
+    <string name="fragment_t_absence_list_dialog_from_error">Igual o menor</string>
+
+    <string name="t_display_absence_breadcrumb">/absence_list/display_absence</string>
+    <string name="t_display_absence_btn_save">Guardar</string>
+    <string name="t_display_absence_btn_cancel">Cancelar</string>
+    <string name="t_display_absence_snack_error">La ausencia no se ha guardado</string>
+    <string name="t_display_absence_snack_saved">La ausencia se ha guardado</string>
+
+    <string name="t_display_absence_item_item_cb_absnet">Ausente</string>
+    <string name="t_display_absence_item_item_btn_set_teacher">Establecer Tarea</string>
+
+    <string name="t_display_guard_breadcrumb">/guards_list/display_guard</string>
+    <string name="t_display_guard_lbl_absent">Ausente:</string>
+    <string name="t_display_guard_lbl_course">Curso:</string>
+    <string name="t_display_guard_lbl_description">Descripción:</string>
+    <string name="t_display_guard_lbl_subject">Asignatura:</string>
+    <string name="t_display_guard_btn_download_doc">Descargar documento:</string>
+    <string name="t_display_guard_btn_save">Guardar</string>
+    <string name="t_display_guard_btn_back">Volver</string>
+
+    <string name="t_guard_list_breadcrumb">/guards_list</string>
+    <string name="t_guard_list_lbl_covered_guards">Guardias Cubiertas</string>
+    <string name="t_guard_list_lbl_today_guards">Guardias de hoy</string>
+
+    <string name="t_profile_breadcrumb">/profile</string>
+    <string name="t_profile_lbl_assistance_status">Asistencia:</string>
+    <string name="t_profile_lbl_guards_amount">Cantidad de guardias:</string>
+    <string name="t_profile_lbl_absence_hours">Horas ausente:</string>
+    <string name="t_profile_lbl_email">Email:</string>
+    <string name="t_profile_lbl_rol">Rol:</string>
+    <string name="t_profile_btn_log_out">Cerrar Sesión</string>
+
+    <string name="t_task_absence_breadcrumb">/absence_list/display_absence/task</string>
+    <string name="t_task_absence_lbl_guard">Guardia:</string>
+    <string name="t_task_absence_lbl_course">Curso:</string>
+    <string name="t_task_absence_lbl_description">Descripción:</string>
+    <string name="t_task_absence_lbl_subject">Asignatura:</string>
+    <string name="t_task_absence_btn_add_doc">Añadir documento:</string>
+    <string name="t_task_absence_btn_save">Guardar</string>
+    <string name="t_task_absence_btn_cancel">Cancelar</string>
+    <string name="t_task_absence_hint_description">Opcional</string>
+    <string name="t_task_absence_assigned_teacher">No asignado</string>
+    <string name="a_display_absence_item_item_btn_set_teacher">Elegir profesor</string>
+    <string name="a_display_absence_item_item_cb_assigned">Asignado</string>
+    <string name="a_set_teacher_drop_item_txt_score">Puntuación:</string>
+    <string name="a_set_teacher_drop_item_txt_guards">Guardias:</string>
+    <string name="a_display_teacher_btn_return">Volver</string>
+    <string name="menu_item_profile">Perfil</string>
+    <string name="menu_item_guard">Guadia</string>
+    <string name="menu_item_absences">Ausencia</string>
+    <string name="menu_item_teacher">Profesor</string>
+
+</resources>

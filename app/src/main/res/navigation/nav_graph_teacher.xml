@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_teacher"
+    app:startDestination="@id/t_AbsenceListFragment">
+
+    <fragment
+        android:id="@+id/t_DisplayAbsenceFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_display_absence.T_DisplayAbsenceFragment"
+        android:label="T_DisplayAbsenceFragment"
+        tools:layout="@layout/fragment_t_display_absence">
+        <argument
+            android:name="dateFrom"
+            app:argType="string" />
+        <argument
+            android:name="dateTo"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_t_DisplayAbsenceFragment_to_t_AbsenceListFragment"
+            app:destination="@id/t_AbsenceListFragment" />
+        <action
+            android:id="@+id/action_t_DisplayAbsenceFragment_to_t_TaskFragment"
+            app:destination="@id/t_TaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/t_DisplayGuardFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_display_guard.T_DisplayGuardFragment"
+        android:label="T_DisplayGuardFragment"
+        tools:layout="@layout/fragment_t_display_guard">
+        <argument
+            android:name="idGuard"
+            app:argType="string" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_t_DisplayGuardFragment_to_t_GuardListFragment"
+            app:destination="@id/t_GuardListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/t_ProfileFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_profile.T_ProfileFragment"
+        android:label="T_ProfileFragment"
+        tools:layout="@layout/fragment_t_profile"/>
+    <fragment
+        android:id="@+id/t_GuardListFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_guard_list.T_GuardListFragment"
+        android:label="T_GuardListFragment"
+        tools:layout="@layout/fragment_t_guard_list">
+        <action
+            android:id="@+id/action_t_GuardListFragment_to_t_DisplayGuardFragment"
+            app:destination="@id/t_DisplayGuardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/t_TaskFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_display_absence.T_TaskFragment"
+        android:label="T_TaskFragment"
+        tools:layout="@layout/fragment_t_task_absence">
+        <action
+            android:id="@+id/action_t_TaskFragment_to_t_DisplayAbsenceFragment2"
+            app:destination="@id/t_DisplayAbsenceFragment" />
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="schedule"
+            app:argType="com.rodrigo.teacher_guards.data.datamodels.AbsentScheduleModel" />
+        <argument
+            android:name="weekday"
+            app:argType="com.rodrigo.teacher_guards.data.datamodels.enums.WeekDayEnum" />
+        <argument
+            android:name="dateFrom"
+            app:argType="string" />
+        <argument
+            android:name="dateTo"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/t_AbsenceListFragment"
+        android:name="com.rodrigo.teacher_guards.ui.teacher.t_absence_list.T_AbsenceListFragment"
+        android:label="T_AbsenceListFragment"
+        tools:layout="@layout/fragment_t_absence_list">
+        <action
+            android:id="@+id/action_t_AbsenceListFragment_to_t_DisplayAbsenceFragment"
+            app:destination="@id/t_DisplayAbsenceFragment"
+            app:popUpTo="@id/t_AbsenceListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>

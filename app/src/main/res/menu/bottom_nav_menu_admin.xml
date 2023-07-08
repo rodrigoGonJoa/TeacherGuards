@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/a_AbsenceListFragment"
+        android:icon="@drawable/absence"
+        android:title="@string/menu_item_absences" />
+    <item
+        android:id="@+id/a_TeacherListFragment"
+        android:icon="@drawable/teacher"
+        android:title="@string/menu_item_teacher" />
+    <item
+        android:id="@+id/a_ProfileFragment"
+        android:icon="@drawable/user"
+        android:title="@string/menu_item_profile" />
+</menu>
