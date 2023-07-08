@@ -1,4 +1,7 @@
-(Se ha suprimido la relacion con firestore por lo que no podrá ser ejecutada)
+IMPORTANTE: 
+- Se ha suprimido la relación con firestore
+- Es necesario de un correo previamente insertado por el administrador para poder acceder
+- Por lo que no podrá ser ejecutada
 
 # TeacherGuards
 Guardias profesorado será una aplicación ejecutada en dispositivos móviles android en la cual se gestionará las guardias del profesorado de un centro escolar. En ella habrá dos roles, uno de administración cuya labor se centrará en asignar un profesor de guardia a aquellas clases cuyo profesor haya faltado y por otro lado el profesorado podrá avisar al equipo del centro de que no asistirá, bien sea un periodo de días o ciertas horas, para que ésta incidencia pueda ser resuelta.
