@@ -11,5 +11,7 @@
 /build
 /captures
 .externalNativeBuild
+google-services.json
 .cxx
+.zip
 local.properties
